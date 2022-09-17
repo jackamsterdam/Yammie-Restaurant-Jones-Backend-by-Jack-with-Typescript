@@ -9,7 +9,7 @@ function errorsHandler(err: any, request: Request, response: Response, next: Nex
     if (err instanceof Error) {
         logger.error(err.message)
         //We don't want the frontend to see sensitive information (about our database for example).
-        const msg = config.isDevelopment ? err.message : 'Some error occured, please try again...'
+        const msg = config.isDevelopment ? err.message : 'Some error occurred, please try again...'
         response.status((err as any).status || 500).send(msg)
         return
     }

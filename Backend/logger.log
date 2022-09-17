@@ -1,14 +1,1 @@
-info	2022-09-17 10:40:59	GET Request to /api/orders/
-info	2022-09-17 10:41:05	POST Request to /api/orders/
-info	2022-09-17 10:41:08	GET Request to /api/orderssssssssssssssssssss
-info	2022-09-17 10:41:08	Route not found
-info	2022-09-17 10:41:11	POST Request to /api/orders/
-info	2022-09-17 10:41:11	"price" must be a number. "orderDate" must be in ISO 8601 date format. "customerName" must be a string. "deliveryAddress" must be a string. "phone" must be a string
-info	2022-09-17 10:44:46	GET Request to /api/orders/
-info	2022-09-17 10:44:55	GET Request to /api/ordersssssss
-info	2022-09-17 10:44:55	Route not found
-info	2022-09-17 10:45:00	POST Request to /api/orders/
-info	2022-09-17 10:45:06	POST Request to /api/orders/
-info	2022-09-17 10:45:06	"price" must be a number. "orderDate" must be in ISO 8601 date format. "customerName" must be a string. "deliveryAddress" must be a string. "phone" must be a string
-info	2022-09-17 10:55:19	GET Request to /api/orders/
-info	2022-09-17 10:55:23	POST Request to /api/orders/
+

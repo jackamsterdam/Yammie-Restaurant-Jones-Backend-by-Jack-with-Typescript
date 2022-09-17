@@ -65,7 +65,7 @@ describe('/POST new order with missing property', () => {
     it('it should Fail to POST a new order with property price', (done) => {
         let order = {
             // "price": 40.99,  (Missing property)  
-            "orderDate": "2022-09-17 09:41:22",
+            "orderDate": "2022-09-30 09:41:22",
             "customerName": "Chris",
             "deliveryAddress": "1535 Broadway, New York, NY 10036, United States",
             "phone": "0584594576"
@@ -83,7 +83,7 @@ describe('/POST new order with missing property', () => {
     it('it should Fail to POST a new order with property orderDate', (done) => {
         let order = {
             "price": 40.99,
-            // "orderDate": "2022-09-17 09:41:22",  (Missing property) 
+            // "orderDate": "2022-09-30 09:41:22",  (Missing property) 
             "customerName": "Chris",
             "deliveryAddress": "1535 Broadway, New York, NY 10036, United States",
             "phone": "0584594576"
@@ -101,7 +101,7 @@ describe('/POST new order with missing property', () => {
     it('it should Fail to POST a new order with property customer name', (done) => {
         let order = {
             "price": 40.99,
-            "orderDate": "2022-09-17 09:41:22",
+            "orderDate": "2022-09-30 09:41:22",
             // "customerName": "Chris", (Missing property)  
             "deliveryAddress": "1535 Broadway, New York, NY 10036, United States",
             "phone": "0584594576"
@@ -119,7 +119,7 @@ describe('/POST new order with missing property', () => {
     it('it should Fail to POST a new order with property delivery address', (done) => {
         let order = {
             "price": 40.99,
-            "orderDate": "2022-09-17 09:41:22",
+            "orderDate": "2022-09-30 09:41:22",
             "customerName": "Chris",
             // "deliveryAddress": "1535 Broadway, New York, NY 10036, United States", (Missing property)  
             "phone": "0584594576"
@@ -137,7 +137,7 @@ describe('/POST new order with missing property', () => {
     it('it should Fail to POST a new order with property phone', (done) => {
         let order = {
             "price": 40.99,
-            "orderDate": "2022-09-17 09:41:22",
+            "orderDate": "2022-09-30 09:41:22",
             "customerName": "Chris",
             "deliveryAddress": "1535 Broadway, New York, NY 10036, United States",
             // "phone": "0584594576" (Missing property)  

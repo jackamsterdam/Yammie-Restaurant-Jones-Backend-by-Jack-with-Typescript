@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import logger from "../01-utils/log-helper";
 
 
-async function logReqests(request: Request, response: Response, next: NextFunction): Promise<void> {
+async function logRequests(request: Request, response: Response, next: NextFunction): Promise<void> {
 
     const msg = `${request.method} Request to ${request.originalUrl}`
     logger.info(msg)
@@ -11,4 +11,4 @@ async function logReqests(request: Request, response: Response, next: NextFuncti
 }
 
 
-export default logReqests
+export default logRequests
