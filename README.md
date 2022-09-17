@@ -1,4 +1,4 @@
-### Yammie Restaurant Node.js Backend REST API Project by Jack Amsterdam in TYPESCRIPT **&copy;**
+## Yammie Restaurant Node.js Backend REST API Project by Jack Amsterdam in TYPESCRIPT **&copy;**
 
 **If you want the Javascirpt version of this code please see the other file
 
