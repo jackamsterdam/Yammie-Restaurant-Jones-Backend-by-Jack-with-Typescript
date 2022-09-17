@@ -4,7 +4,7 @@
 
 *Yammie restaurant is expanding its services online and I was asked to build a REST API for the backend with Node.js for online orders. I then built the rest according to Node's Layered Architecture. This REST allows you to get all of last day's orders as well as add an order. Code is production ready.*
 
-First of all the server is deployed on Heroku - **Go To - [https://yammie-backend-jones.herokuapp.com/api/orders](https://yammie-backend-jones.herokuapp.com/api/orders)  to see last day's orders.**
+First of all the server is deployed on Heroku - **Go To -** [https://yammie-backend-jones.herokuapp.com/api/orders](https://yammie-backend-jones.herokuapp.com/api/orders)  **to see last day's orders.**
 
 Secondly, I uploaded the server as a package to NPM that can run while you get latest orders and add orders. Can be downloaded here as a global package installation:
 
@@ -81,7 +81,6 @@ Another option - Need to download *"REST Client"* extension in VSCode and you ca
 
 If there are no orders in the last day I return 200 with a message - 'No orders in the last day.
 
-
 I added Joi validation when adding a new order:
 
 תקינות קלט:
@@ -109,6 +108,5 @@ https://github.com/jackamsterdam
 https://wakatime.com/@jackamsterdam
 
 https://www.npmjs.com/~jackamsterdam
-
 
 THANKS, AND HAVE A HAPPY DAY
