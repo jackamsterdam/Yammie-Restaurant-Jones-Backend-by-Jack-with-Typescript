@@ -21,6 +21,7 @@ Further instructions on how to run this package at README.MD on the npm page.
 2. There is a folder called Database -import the sql file into your phpMyAdmin or your MySQL Workbench.
 3. Open the terminal on the Backend folder and type: npm i && npm start.
 4. Server will run for you on [http://localhost:3001](http://localhost:3001)
+**Since the code is running TypeScript make sure to install these global packages: npm i -g typescript && npm i -g ts-node
 
 ### *Summary of stages I took in building this project:*
 
